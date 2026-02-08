@@ -62,21 +62,5 @@ The Layer-First approach could also be used for this project. The greatest advan
 * Use a database like SQLite or a persistence framework like Hive for transaction storage
 * Follow Flutter best practices and material design guidelines
 
-
-## Requirements
-#### Funcionality
-1. Add transactions (income/expense) with amount, category, date, and optional notes
-2. Display a list of all transactions
-3. Show current balance at the top of the screen
-4. Filter transactions by type (income/expense/all)
-5. Persist data locally so it survives app restarts
-
-#### Technical
-* Use Bloc for state management (transactions list, balance calculation, filters)
-* Implement theming with light/dark mode toggle (persisted preference)
-* Use SharedPreferences for theme preference
-* Use a database like SQLite or a persistence framework like Hive for transaction storage
-* Follow Flutter best practices and material design guidelines
-
 ## Time spent
 I have spent 4 hours and 15 minutes for the application development and half an hour for this documentation.
